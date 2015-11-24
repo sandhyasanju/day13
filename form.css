@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(to right, #C0C0C0 1%, #FFFFFF 50%);
+  border: 6px solid #B0B0B0;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 24px;
+}
+#header {
+  background: #FFCCFF;
+  color: #9966FF;
+  margin-left: 12px;
+}
+#header1 {
+  background: #FFCCFF;
+  color: #9966FF;
+  margin-left: 12px;
+}
+hr {
+  align: center;
+  color: #F8F8F8;
+  margin-bottom: 5px;
+  margin-left: 104px;
+  margin-right: 200px;
+  margin-top: 5px;
+}
+span {
+  margin: 65px;
+}
+#edit {
+  cursor: pointer;
+  float: right;
+}
+#toggle {
+  cursor: pointer;
+  float: right;
+  font-size: 35px;
+}
+#hidden {
+  display: none;
+}
+.label {
+  color: #990099;
+  font-size: 15px;
+}
+#alert {
+  display: none;
+  margin-left: -35px;
+}

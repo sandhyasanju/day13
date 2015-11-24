@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+  <title>Finday form</title>
+  <meta charset="utf-8">
+  <script src = "jquery-1.11.3.min.js"></script>
+  <script type = "text/javascript" src = "form.js"></script>
+  <link rel = "stylesheet" type="text/css" href="hyphen.css">
+  <link rel = "stylesheet" type="text/css" href="form.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id = "show">
+  <div class = "grid" id = "header">
+    <div class = "grid__item grid__item--5">
+      <span class = "span"></span>
+    </div>
+    <div class = "grid__item grid__item--2">
+      <h2>Create Quote</h2>
+    </div>
+  </div>
+  <div class = "grid" id = "header1">
+    <div class = "grid__item grid__item--5">
+      <span class = "span"></span>
+    </div>
+    <div class = "grid__item grid__item--2">
+      <h3>Quote Details</h3>
+    </div>
+  </div>
+  <hr>
+  <div class = "grid">
+    <div class = "grid__item grid__item--1">
+      <span class = "span"></span>
+    </div>
+    <div class = "grid__item grid__item--4">
+      <label class = "label">Quote Name</label>
+      <input type = "input" class = "input" placeholder="Quote name">
+    </div>
+    <div class = "grid__item grid__item--1">
+      <span class = "span"></span>
+    </div>
+    <div class = "grid__item grid__item--4">
+      <label class = "label">Customer Name</label>
+      <input type = "input" class = "input" placeholder="Customer Name">
+    </div>
+  </div>
+  <div class = "grid">
+    <div class = "grid__item grid__item--1">
+      <span class = "span"></span>
+    </div>
+    <div class = "grid__item grid__item--4">
+      <label class = "label">Delivery Goods To*</label>
+        <i class="fa fa-pencil-square-o" id = "edit"></i>
+      <textarea type = "input" class = "input input--disabled"></textarea>
+    </div>
+    <div class = "grid__item grid__item--1">
+      <span class = "span"></span>
+    </div>
+    <div class = "grid__item grid__item--4">
+      <label class = "label">Billing To*</label>
+      <textarea type = "input" class = "input input--disabled"></textarea>
+    </div>
+  </div>
+  <div class = "grid">
+    <div class = "grid__item grid__item--1">
+      <span class = "span"></span>
+    </div>
+    <div class = "grid__item grid__item--4">
+      <label class = "label">Adress verified</label>
+      <i class="fa fa-toggle-off fa-big" id = "toggle"></i>
+    </div>
+    <div class = "grid__item grid__item--1">
+      <span class = "span"></span>
+    </div>
+    <div class = "grid__item grid__item--4">
+      <label class = "label">Order Type</label>
+      <select type = "input" class = "input"></select>
+    </div>
+  </div>
+  <div class = "grid">
+    <div class = "grid__item grid__item--10">
+      <span class = "span"></span>
+    </div>
+    <div class = "grid__item grid__item--1">
+      <button class = "btn btn--success btn--large btn--round" id = "button">Next</button>
+    </div>
+  </div>
+</div>
+  <div id = "hidden">
+    <div class = "grid">
+      <div class = "grid__item grid__item--1">
+        <span class = "span"></span>
+      </div>
+      <div class = "grid__item grid__item--4">
+        <label class = "label">Additional Information</label>
+      </div>
+    </div>
+    <hr>
+    <div class ="grid">
+      <div class = "grid__item grid__item--1">
+        <span class = "span"></span>
+      </div>
+      <div class = "grid__item grid__item--4">
+        <label class = "label">Payment Terms</label>
+        <select class = "input"></select>
+      </div>
+      <div class = "grid__item grid__item--1">
+        <span class = "span"></span>
+      </div>
+      <div class = "grid__item grid__item--4">
+        <label class = "label">PO NUMBER</label>
+        <input type = "input" placeholder="PO NUMBER" class = "input">
+      </div>
+    </div>
+    <div class ="grid">
+      <div class = "grid__item grid__item--1">
+        <span class = "span"></span>
+      </div>
+      <div class = "grid__item grid__item--4">
+        <label class = "label">Payment Terms</label>
+        <select class = "input"></select>
+      </div>
+      <div class = "grid__item grid__item--1">
+        <span class = "span"></span>
+      </div>
+      <div class = "grid__item grid__item--4">
+        <label class = "label">Requested Date</label>
+        <div class="input-icon input-icon--right">
+          <i class="fa fa-calendar input-icon__icon"></i>
+          <input type = "cal" class = "input input-icon__input">
+        </div>
+      </div>
+    </div>
+    <div class = "grid">
+    </div>
+    <div class = "grid">
+    </div>
+    <div class = "grid">
+    </div>
+    <div class = "grid">
+      <div class = "grid__item grid__item--1">
+        <span class = "span"></span>
+      </div>
+      <div class = "grid__item grid__item--4">
+        <label class = "label">NOTE To.....,</label>
+      </div>
+    </div>
+    <hr>
+    <br><br><br>
+    <div class = "grid">
+      <div class = "grid__item grid__item--1">
+        <span class = "sapn"></span>
+      </div>
+      <div class = "grid__item grid__item--3">
+        <label class = "label">Customer</label>
+        <textarea placeholder="customer" class = "input"></textarea>
+      </div>
+      <div class = "grid__item grid__item--3">
+        <label class = "label">Back Office</label>
+        <textarea placeholder="Back Office" class = "input"></textarea>
+      </div>
+      <div class = "grid__item grid__item--3">
+        <label class = "label">Carrier</label>
+        <textarea placeholder="carrier" class = "input"></textarea>
+      </div>
+    </div>
+    <br><br><br>
+    <br>
+    <div class = "grid">
+      <div class = "grid__item grid__item--1">
+        <span class = "span"></span>
+      </div>
+      <div class = "grid__item grid__item--1">
+        <button class = "btn btn--success btn--large btn--round" id = "button2">Back</button>
+      </div>
+      <div class = "grid__item grid__item--8">
+        <span class = "span"></span>
+      </div>
+      <div class = "grid__item grid__item--1">
+        <button class = "btn btn--success btn--large btn--round" id = "button3">Finish</button>
+      </div>
+    </div>
+    <div class="grid" id = "alert">
+      <div class = "grid__item grid__item--3">
+        <span class = "span"></span>
+      </div>
+      <div class="grid__item grid__item--6">
+        <div class="alert alert--warning">
+          <b class="text text--warning">Warning!</b> You are about to finish to <b>continue</b> finishing <b>tick the checkbox</b>
+          <div class="alert__close alert--warning__close">
+            <i class="fa fa-close"></i>
+            <input type = "checkbox" id = "checkbox">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </div>
+</body>
+</html>
